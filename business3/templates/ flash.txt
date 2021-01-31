@@ -1,4 +1,4 @@
 Hello {{name}}
 
-Welcome to the  flashcard Website!
+Welcome to the  Business Website!
     You will be able to rate and review projects.
