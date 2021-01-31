@@ -1,7 +1,5 @@
 from django.db import models
 from cloudinary.models import CloudinaryField
-# Create your models here.
-
 
 class Category(models.Model):
     name = models.CharField(max_length=50)
@@ -36,7 +34,6 @@ class Location(models.Model):
 
     def delete_location(self):
         self.delete()
-
 
 class Image(models.Model):
     var uploader = new ImageUploader(config)
@@ -73,7 +70,6 @@ class Image(models.Model):
 
     def save_image(self):
         self.save()
-
     def delete_image(self):
         self.delete()
 
