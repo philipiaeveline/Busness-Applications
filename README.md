@@ -17,9 +17,9 @@ This website will allow to post,comment and search urls like your previous proje
 ## Setup and Installation  
 * To get the code..  
 * To get the project ..
-##### Cloning the repository:  
+### Cloning the repository:  
  ```bash 
- https://github.com/philipiaeveline/Awwards.git 
+https://github.com/philipiaeveline/Busness-Applications.git 
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
@@ -53,13 +53,12 @@ python manage.py makemigrations pictures
  
 Open the application on your browser `127.0.0.1:8000`.  
   
-  
 ## Technology used  
   
 * [Python3.7](https://www.python.org/)  
 * [Django ](https://docs.djangoproject.com/en/3.1.5/)  
 * [Heroku](https://heroku.com) 
-  
+
 ## Known Bugs  
 * There are no known bugs currently but pull requests are allowed incase you spot a bug  
   
@@ -67,4 +66,4 @@ Open the application on your browser `127.0.0.1:8000`.
 If you have any question or contributions, please email me at [philipiaeveline13@gmail.com]  
 ## License 
 * [[License](https://img.shields.io/packagist/l/loopline-systems/closeio-api-wrapper.
-* Copyright (c) 2021  *philipia eveline *
+* Copyright (c) 2021  *philipia eveline 
