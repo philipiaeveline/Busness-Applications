@@ -9,7 +9,7 @@
 
             <button type="button" class="btn btn-styled" data-toggle="modal" data-target="#myModal{{pic.id}}">
             <img width="400px" src=" {{pic.image.url}} " class="img-responsive" alt="one pic image">
-            <a class="btn btn-success" href="/single_pic/{{pic.id}} ">More</a> 
+            <a class="btn btn-success" href="/single_pic/{{pic.id}} ">View</a> 
         </div>
         
     </div>
@@ -31,8 +31,6 @@
                         <div class="modal-footer">
                             <p>{{pic.author}}</p>
                             <h4>{{pic.pub_date}}</h4>
-
-
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -40,14 +38,10 @@
             </div>
 
         </div>
-
-
         {% endfor %}
 
     </div>
     <style>
-    
-        
         .modal {
             color: black;
         }
