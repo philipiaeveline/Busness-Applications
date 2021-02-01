@@ -3,7 +3,7 @@
 <main class="wrapper">
     <section class="section1">
         <div class="kip">
-            <h1>FLASHCARDS</h1>
+            <h1>HISTORY</h1>
             <p style="padding-bottom: 80px;">POST AND LEARN</p>
         </div>
         <div class="row">
@@ -40,11 +40,7 @@
                     }
                 }
             </script>
-            <!-- Filter functions for Location -->
-
             <div class="col-md-3 col-sm-3 "></div>
-
-            <!-- Scripts for location filter functions -->
             <script>
                 function myFunction2() {
                     var x = document.getElementById("Demo");
@@ -72,7 +68,7 @@
                         <img class=" img-responsive image2" width="450px" height="400px" src="{{pic.image.url}}"
                             alt="image">
                     </button> <br>
-                    <a class="btn btn-primary" href="/single_pic/{{pic.id}} ">More</a>
+                    <a class="btn btn-primary" href="/single_pic/{{pic.id}} ">View</a>
 
                 </div>
                 <script>
@@ -85,10 +81,6 @@
             </div>
         </div>
     </section>
-
-
-
-
 
     <!-- Modal -->
     {% for pic in pics %}
@@ -201,21 +193,12 @@
     }
     
     .modal-content {
-        background-image: url('https://images.pexels.com/photos/5709005/pexels-photo-5709005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
-    .wrapper {
-        background-image: url();
-        height: 88vh;
-        /* background-position: center; */
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-top: 15%;
-    }
+  
     
     .kip {
         margin-left: 400px;
