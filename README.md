@@ -2,13 +2,13 @@
 ## Author  
 [Philipia eveline](https://github.com/philipiaeveline/Busness-Applications)  
   
-# Description  
+# Description 
+A business application is a software solution or a set of programs that provide business functionality. They're also used to enhance and monitor productivity throughout the organization. Business applications can be used externally, internally, or with other business apps. 
 This website will allow to post,comment and search urls like your previous projects also you can like or dislike.
 ##  Live Link  
  Click [View Site]()  to visit the site
 
 ## User Stories
-
 * Sign in to the application to start using.
 * Upload my pictures to the application.
 * See my profile with all my pictures.
