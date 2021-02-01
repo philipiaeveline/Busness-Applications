@@ -2,6 +2,8 @@ from . import views
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import url
+from django.urls import path
+from .views import BusinessDeleteView,BusinessUpdateView
 
 urlpatterns=[
     url(r'^$',views.pics,name='pics'),
@@ -13,6 +15,8 @@ urlpatterns=[
     url(r'^newpost/$',views.new_post,name='newpost'),
     url(r'^logout/$',views.logout_request,name="logout"),
     url(r'^accounts/profile/$',views.profile,name='profile'),
+    path('post/<int:pk>/delete/',BusinessDeleteView.as_view(), name="deleteForm"),
+    path('post/<int:pk>/update/',BusinessUpdateView.as_view(), name="updateForm"),
     ]
     
 if settings.DEBUG:

@@ -9,6 +9,13 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout
 from django.contrib.auth.models import User
 from django.contrib import messages
+from django.views.generic import(
+    ListView,
+    DetailView,
+    CreateView,
+    UpdateView,
+    DeleteView
+)
 
 def signUp(request):    
     if request.method=='POST':
@@ -102,3 +109,17 @@ def search_results(request):
     else:
         message = "You have not entered anything to search"
         return render(request,'search.html',{"message":message})
+
+
+class BusinessUpdateView(UpdateView):
+    model = Picture
+    template_name = 'new_post.html'   
+    fields= ['name', 'description','category']    
+class BusinessDeleteView(DeleteView):
+    model = Picture
+    template_name = 'delete.html'
+    success_url = ('/')
+def deleteForm(request):
+    context ={     
+    }
+    return render(request ,'delete.html', context )   

@@ -1,11 +1,10 @@
 {% extends 'base.html' %} {% load bootstrap4 %} {% block content %}
 <div class="container">
     <div class="row">
-
         <div class="col-md-6">
             <div class="card bg-transparent">
                 <div class="card-header">
-                    <h3><b><u>Post on your timeline</u></b></h3>
+                    <h3><b><u>Post on your businessapp</u></b></h3>
                 </div>
                 <div class="card-body">
                     <form action="{% url 'newpost' %}" method="post" enctype="multipart/form-data">
