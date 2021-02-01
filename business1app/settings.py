@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'business3',
     'bootstrap4',
+    'bootstrap3',
     'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -82,7 +83,7 @@ WSGI_APPLICATION = 'business1app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'business1',
+        'NAME': 'sells',
         'USER': 'moringa',
     'PASSWORD':'eveline3434',
     }
