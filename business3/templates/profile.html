@@ -5,7 +5,7 @@
         <div class="card" style="width:70%">
             <h2 style="text-align: center;"> <u> My Profile</u> </h2>
             {% if user.profile.profile_pic %}
-            
+
             <div class="card-body">
                 <h4 class="card-title">
                     <h3 style="text-align: center;">Username: {{user.username}} </h3>
@@ -28,7 +28,7 @@
             <div class="card" style="width:500px ; margin: 3%;">
                 <h4 style="text-align: center;" class="card-title pictitle"> {{post.name}} </h4>
                 <a href="/singlepic/{{post.id}}">
-                    <img class="timelinepics card-img-top img-fluid" width="500px" height="450px" src=" {{post.ig_pic.url}} " alt="Image"></a>
+                    <img class="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F07%2Fdesk-3139127_1920-1200x773.jpg" width="500px" height="450px" src=" {{post.ig_pic.url}} " alt="Image"></a>
                 <div class="card-body">
                     <p style="text-align: center;" class="card-text">{{post.caption}}</p>
                     <p class="card-text">Posted by: {{post.user}}</p>
