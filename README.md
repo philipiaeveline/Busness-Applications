@@ -50,7 +50,6 @@ python manage.py makemigrations pictures
  ```bash 
  python manage.py server 
 ```
- 
 Open the application on your browser `127.0.0.1:8000`.  
   
 ## Technology used  
@@ -63,7 +62,7 @@ Open the application on your browser `127.0.0.1:8000`.
 * There are no known bugs currently but pull requests are allowed incase you spot a bug  
   
 ## Contact Information   
-If you have any question or contributions, please email me at [philipiaeveline13@gmail.com]  
+If you have any question or contributions, please email me at [philipiaeveline13@gmailcom]  
 ## License 
 * [[License](https://img.shields.io/packagist/l/loopline-systems/closeio-api-wrapper.
 * Copyright (c) 2021  *philipia eveline 
