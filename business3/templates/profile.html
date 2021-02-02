@@ -5,8 +5,7 @@
         <div class="card" style="width:70%">
             <h2 style="text-align: center;"> <u> My Profile</u> </h2>
             {% if user.profile.profile_pic %}
-            <img style="border-radius: 50%; margin-left: 30%;" width="250px" height="250px" src=" {{user.profile.profile_pic.url}} " class="rounded-circle img-fluid" width="400px" alt="dp"> {% else %}
-            <!-- <img src="https://images.pexels.com/photos/358042/pexels-photo-358042.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="border-radius: 50%; margin-left: 40%;" class="img-fluid" width="250px" height="250px" alt="dp"> {% endif%} -->
+            
             <div class="card-body">
                 <h4 class="card-title">
                     <h3 style="text-align: center;">Username: {{user.username}} </h3>

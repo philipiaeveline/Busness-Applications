@@ -10,7 +10,7 @@
             <div class="col-md-3 col-sm-3 "></div>
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <div class="dropdown">
-                    <button onclick="myFunction1()" class=" w3-button dropbtn">Filter by Category</button>
+                    <button onclick="myFunction1()" class=" w3-button dropbtn">Users</button>
                     <div id="myDropdown" class="dropdown-content">
                         {% for my_catpic in category %}
                         <a href="/category/{{my_catpic.id}}">{{my_catpic.category_name}}</a> {% endfor %}
