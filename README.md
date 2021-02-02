@@ -4,7 +4,7 @@
   
 # Description 
 A business application is a software solution or a set of programs that provide business functionality. They're also used to enhance and monitor productivity throughout the organization. Business applications can be used externally, internally, or with other business apps. 
-This website will allow to post,comment and search urls like your previous projects also you can like or dislike.
+This website will allow to post,comment and search urls and also you can login or logout
 ##  Live Link  
  Click [View Site]()  to visit the site
 
